@@ -20,7 +20,9 @@
 
 #include "common/platform.h"
 
+#ifdef FUSE_LOWLEVEL_H_
 #include <fuse/fuse_lowlevel.h>
+#endif
 
 #include "protocol/MFSCommunication.h"
 
